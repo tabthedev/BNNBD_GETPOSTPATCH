@@ -1,1 +1,10 @@
-hi
+<http>
+	<oauth2-client client-registration-repository-ref="clientRegistrationRepository"
+				   authorized-client-repository-ref="authorizedClientRepository"
+				   authorized-client-service-ref="authorizedClientService">
+		<authorization-code-grant
+				authorization-request-repository-ref="authorizationRequestRepository"
+				authorization-request-resolver-ref="authorizationRequestResolver"
+				access-token-response-client-ref="accessTokenResponseClient"/>
+	</oauth2-client>
+</http>
