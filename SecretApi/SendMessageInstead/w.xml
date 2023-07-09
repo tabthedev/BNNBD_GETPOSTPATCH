@@ -1,10 +1,10 @@
-<http>
-	<oauth2-client client-registration-repository-ref="clientRegistrationRepository"
-				   authorized-client-repository-ref="authorizedClientRepository"
-				   authorized-client-service-ref="authorizedClientService">
-		<authorization-code-grant
-				authorization-request-repository-ref="authorizationRequestRepository"
-				authorization-request-resolver-ref="authorizationRequestResolver"
-				access-token-response-client-ref="accessTokenResponseClient"/>
-	</oauth2-client>
-</http>
+<?xml version="1.0"?>
+<CAT>
+  <NAME>Izzy</NAME>
+  <BREED>Siamese</BREED>
+  <AGE>6</AGE>
+  <ALTERED>yes</ALTERED>
+  <DECLAWED>no</DECLAWED>
+  <LICENSE>Izz138bod</LICENSE>
+  <OWNER>Colin Wilcox</OWNER>
+</CAT>
